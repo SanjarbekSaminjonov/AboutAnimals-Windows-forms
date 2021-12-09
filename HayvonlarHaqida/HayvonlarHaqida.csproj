@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animals.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +60,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +73,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,6 +85,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,6 +99,106 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timsoh.jpg" />
+    <None Include="Resources\timsoh2.png" />
+    <None Include="Resources\kobra-ilon.jpg" />
+    <None Include="Resources\kobra2.png" />
+    <None Include="Resources\sher.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sher2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\akula.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\akula2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bori.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bori2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burgut.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burgut2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayiq.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayiq2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yolbars.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yolbars2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tulki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tulki2.jpg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chayon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chayon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boyqush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boyqush2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sirtlon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sirtlon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qoplon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qoplon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anakonda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anakonda2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meduza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meduza2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yaguar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yaguar2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\begemot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\begemot2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\echkiemar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\echkiemar2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

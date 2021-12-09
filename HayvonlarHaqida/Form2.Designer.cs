@@ -33,7 +33,6 @@
             this.headerPanel = new System.Windows.Forms.Panel();
             this.backgroundPanel = new System.Windows.Forms.Panel();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
             this.button16 = new System.Windows.Forms.Button();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
@@ -90,7 +89,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.headerPanel.SuspendLayout();
             this.backgroundPanel.SuspendLayout();
-            this.panel19.SuspendLayout();
             this.panel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.panel17.SuspendLayout();
@@ -132,11 +130,11 @@
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
-            this.titleLabel.Font = new System.Drawing.Font("Comic Sans MS", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLabel.Font = new System.Drawing.Font("Cascadia Code SemiBold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.Green;
-            this.titleLabel.Location = new System.Drawing.Point(258, 30);
+            this.titleLabel.Location = new System.Drawing.Point(307, 25);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(467, 60);
+            this.titleLabel.Size = new System.Drawing.Size(367, 52);
             this.titleLabel.TabIndex = 0;
             this.titleLabel.Text = "HAYVONLAR OLAMI";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -148,7 +146,7 @@
             this.headerPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.headerPanel.Location = new System.Drawing.Point(0, 0);
             this.headerPanel.Name = "headerPanel";
-            this.headerPanel.Size = new System.Drawing.Size(982, 120);
+            this.headerPanel.Size = new System.Drawing.Size(982, 100);
             this.headerPanel.TabIndex = 1;
             // 
             // backgroundPanel
@@ -175,30 +173,18 @@
             this.backgroundPanel.Controls.Add(this.panel2);
             this.backgroundPanel.Controls.Add(this.panel1);
             this.backgroundPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.backgroundPanel.Location = new System.Drawing.Point(0, 120);
+            this.backgroundPanel.Location = new System.Drawing.Point(0, 100);
             this.backgroundPanel.Name = "backgroundPanel";
-            this.backgroundPanel.Size = new System.Drawing.Size(982, 633);
+            this.backgroundPanel.Size = new System.Drawing.Size(982, 653);
             this.backgroundPanel.TabIndex = 2;
             // 
             // panel19
             // 
-            this.panel19.Controls.Add(this.label1);
             this.panel19.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel19.Location = new System.Drawing.Point(0, 1676);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(961, 84);
+            this.panel19.Size = new System.Drawing.Size(961, 34);
             this.panel19.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe Print", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(292, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(391, 58);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Mirzajonova Mohinur ";
             // 
             // panel16
             // 
@@ -223,6 +209,7 @@
             this.button16.TabIndex = 3;
             this.button16.Text = "Echkiemar";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // pictureBox16
             // 
@@ -258,6 +245,7 @@
             this.button17.TabIndex = 3;
             this.button17.Text = "Begemot";
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // pictureBox17
             // 
@@ -293,6 +281,7 @@
             this.button18.TabIndex = 3;
             this.button18.Text = "Yaguar";
             this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // pictureBox18
             // 
@@ -328,6 +317,7 @@
             this.button13.TabIndex = 3;
             this.button13.Text = "Meduza";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // pictureBox13
             // 
@@ -363,6 +353,7 @@
             this.button10.TabIndex = 3;
             this.button10.Text = "Sirtlon";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // pictureBox10
             // 
@@ -396,8 +387,9 @@
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(280, 37);
             this.button14.TabIndex = 3;
-            this.button14.Text = "Anaconda iloni";
+            this.button14.Text = "Anakonda iloni";
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // pictureBox14
             // 
@@ -433,6 +425,7 @@
             this.button11.TabIndex = 3;
             this.button11.Text = "Boyqush";
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // pictureBox11
             // 
@@ -468,6 +461,7 @@
             this.button12.TabIndex = 3;
             this.button12.Text = "Chayon";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // pictureBox12
             // 
@@ -503,6 +497,7 @@
             this.button15.TabIndex = 3;
             this.button15.Text = "Qoplon";
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // pictureBox15
             // 
@@ -538,6 +533,7 @@
             this.button7.TabIndex = 3;
             this.button7.Text = "Tulki";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // pictureBox7
             // 
@@ -573,6 +569,7 @@
             this.button8.TabIndex = 3;
             this.button8.Text = "Yo\'lbars";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // pictureBox8
             // 
@@ -608,6 +605,7 @@
             this.button9.TabIndex = 3;
             this.button9.Text = "Ayiq";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // pictureBox9
             // 
@@ -643,6 +641,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "Burgut";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox4
             // 
@@ -678,6 +677,7 @@
             this.button5.TabIndex = 3;
             this.button5.Text = "Bo\'ri";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // pictureBox5
             // 
@@ -713,6 +713,7 @@
             this.button6.TabIndex = 3;
             this.button6.Text = "Akula";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // pictureBox6
             // 
@@ -748,6 +749,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "Sher";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox3
             // 
@@ -783,6 +785,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Kobra iloni";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox2
             // 
@@ -818,6 +821,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Timsoh";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -847,8 +851,6 @@
             this.headerPanel.ResumeLayout(false);
             this.headerPanel.PerformLayout();
             this.backgroundPanel.ResumeLayout(false);
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
             this.panel16.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.panel17.ResumeLayout(false);
@@ -949,6 +951,5 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label1;
     }
 }
