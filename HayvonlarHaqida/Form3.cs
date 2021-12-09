@@ -29,5 +29,10 @@ namespace HayvonlarHaqida
             pictureBox2.Image = animal.Image2;
             richTextBox1.Text = animal.Description;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -126,5 +126,10 @@ namespace HayvonlarHaqida
             Form3.name = button16.Text;
             form3.ShowDialog();
         }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
