@@ -23,7 +23,6 @@ namespace HayvonlarHaqida
         {
             Form3.name = button1.Text;
             form3.ShowDialog();
-
         }
 
         private void button2_Click(object sender, EventArgs e)
